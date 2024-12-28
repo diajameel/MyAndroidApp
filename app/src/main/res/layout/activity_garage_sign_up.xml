@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SignUp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+
+        <!-- TableLayout for organizing rows -->
+
+
+        <!-- Row for User Name -->
+        <TableRow
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imgCarage"
+                android:layout_width="179dp"
+                android:layout_height="200dp"
+                app:layout_constraintBottom_toTopOf="@+id/tblLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logog" />
+
+            <Button
+                android:id="@+id/btnChossing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#FFFFFF"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="20dp"
+
+            >
+
+            <TextView
+                android:id="@+id/txtVnameSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtxtNameSign"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="20dp"
+
+
+            >
+
+            <TextView
+                android:id="@+id/txtViewPaasSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edittxtPassSign"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <!-- Row for Phone Number -->
+        <TableRow android:layout_marginBottom="20dp"
+
+            >
+
+            <TextView
+                android:id="@+id/txtVNumberSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtxtNumberSign"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:inputType="text" />
+        </TableRow>
+
+        <!-- Row for Location -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="138dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/txtVLocSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Location"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edittxtLocSign"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView>
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="right"
+                style="@style/MyButtonStyle"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="60dp"
+                android:text="Sign Up"
+              />
+        </TableRow>
+    </TableLayout>

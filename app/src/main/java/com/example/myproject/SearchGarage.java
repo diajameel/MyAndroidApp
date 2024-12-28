@@ -30,7 +30,7 @@ public class SearchGarage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_garage);
 
-        // ربط الـ DrawerLayout و Toolbar
+
         drawerLayout = findViewById(R.id.drawer_layout);
         toolbar = findViewById(R.id.toolbar);
 
