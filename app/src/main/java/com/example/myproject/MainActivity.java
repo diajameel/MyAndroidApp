@@ -23,7 +23,7 @@ Button  btnLogin;
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             btnLogin=findViewById( R.id.btnLogin);
             btnLogin.setOnClickListener(e->{
-            Intent intent =new Intent(MainActivity.this,SearchGarage.class);
+            Intent intent =new Intent(MainActivity.this, GarageSignUp.class);
             startActivity(intent);   });
             btnSignin=findViewById( R.id.btnSignin);
             btnSignin.setOnClickListener(e->{
