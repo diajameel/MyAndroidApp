@@ -10,6 +10,9 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myproject.reycycler.HistoryPaidRecyclerAdapter;
+import com.example.myproject.reycycler.HistoryWaitingForPaymentRecycletAdapter;
+
 
 public class History extends AppCompatActivity {
     RecyclerView historyPaidRecycler;

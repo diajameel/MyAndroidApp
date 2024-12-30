@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.example.myproject.reycycler;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.myproject.MyViewHolder;
+import com.example.myproject.R;
 
 public class HistoryWaitingForPaymentRecycletAdapter extends RecyclerView.Adapter<MyViewHolder> {
     Context context;

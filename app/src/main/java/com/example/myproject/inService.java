@@ -10,6 +10,8 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myproject.reycycler.InServiceRecyclerAdapter;
+
 
 public class inService extends AppCompatActivity {
     RecyclerView inServiceView;
